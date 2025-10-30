@@ -1,10 +1,15 @@
 import { Container } from "../components/container";
-import { Text } from "../components/text";
+import { TasksList } from "../core-components/tasks-list";
+import { TasksSummary } from "../core-components/tasks-summary";
 
 export function PageHome() {
   return (
-    <Container>
-      <Text>Página Principal</Text>
+    <Container as="article" className="space-y-3">
+      <header className="flex items-center justify-between">
+        <TasksSummary />
+      </header>
+
+      <TasksList />
     </Container>
   );
 }
