@@ -29,7 +29,7 @@ const inputCheckboxVariants = {
 
 const inputCheckboxIconVariants = {
   style:
-    "absolute top-1/2 left-1 -translate-y-1/2 hidden peer-checked:block fill-white",
+    "cursor-pointer absolute top-1/2 left-1 -translate-y-1/2 hidden peer-checked:block fill-white",
   size: {
     md: "w-3 h-3",
   },
